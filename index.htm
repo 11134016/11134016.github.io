@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Website</title>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+    box-sizing: border-box;}
+
+        header{
+            height: 100px; width: 1024px;
+            background-color: #FFFFFF;
+            padding: 0px 20px;
+            display: flex;
+            top: 20px;
+            background-image: url(web/logo.jpg);
+        }
+
+        header h1{
+            margin-right: auto;}
+
+        ul.menu{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 5px;
+            margin-top: 40px;
+            font-size: 30px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+
+        ul.menu a{
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        ul.menu a:hover{
+            background-color: #F5F5F5;
+            border-radius: 20px;
+        }
+
+    div.web{
+        background-image: url(web/disney-2.jpeg);
+        width: 1024px; height: 959px;
+    }
+
+    div.card-intro a:hover{
+          background-color: rgb(191, 215, 247);
+          border-radius: 20px;
+    }
+
+    section{
+     background-color: #121940;
+     width: 1024px; height: auto;
+     display: flex;
+    }
+
+    div.card{
+        width: 216px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;}
+    
+    div.card-image{
+        width: 100%; height: 300px;
+        background-size: cover;
+        padding-top: 110px; padding-left: 20px;}
+
+    div.card-intro{
+        font-size: 45px;
+        padding: 18px; padding-left: 20px; padding-right: 12px;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        list-style: none; }
+
+        div.card-intro a{
+            color: black;
+            text-decoration: none;
+        }
+
+    div.Disney .card-image{
+        background-image: url(web/mickey.jpeg);
+    }
+ 
+    div.Princesses .card-image{
+        background-image: url(web/princess.jpg);
+    }
+
+    div.Pixar .card-image{
+        background-image: url(web/pixar.jpeg);
+    }
+
+    div.Duffy .card-image{
+        background-image: url(web/duffy2.jpeg);
+    }
+
+    footer{
+        height: 20px; width: 1024px;;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    
+    </style>
+</head>
+<body>
+
+
+    <div class="wrap">
+    <header>
+        <h1 class="logo"><a href="web/logo.png"></a></h1>
+
+    <ul class="menu">
+        <li><a href="">Characters</a></li>
+        <li><a href="">Movies</a></li>
+        <li><a href="">Commodity</a></li>
+        <li><a href="">Disney Land</a></li>
+    </ul>
+</header>
+
+    <div class="web">
+        web
+    </div>
+
+<section>
+    <div class="card Disney">
+<div class="card-image">
+</div>
+
+
+<div class="card-intro">
+    <li><a href="Disney.htm">Disney</a></li>
+</div>
+    </div>
+
+    <div class="card Princesses">
+        <div class="card-image">
+        </div>
+        
+        <div class="card-intro">
+            <li><a href="Princesses.htm">Princess</a></li>
+        </div>
+            </div>
+
+
+    <div class="card Pixar">
+        <div class="card-image">
+        </div>
+        
+        <div class="card-intro">
+            <li><a href="Pixar.htm">Pixar</a></li>
+        </div>
+            </div>
+
+
+    <div class="card Duffy">
+        <div class="card-image">
+        </div>
+        
+        <div class="card-intro">
+            <li><a href="Duffy.htm">Duffy</a></li>
+        </div>
+            </div>
+
+</section>
+
+<footer>
+    © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel. All Rights Reserved
+</footer>
+</div>
+
+</body>
+</html>
